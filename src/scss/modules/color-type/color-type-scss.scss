@@ -2,7 +2,6 @@
   @include row-flex();
 
   .col-left {
-    outline: 1px solid #025fff;
     @include col();
     @include size(6);
     padding: 61px 111px;
@@ -68,7 +67,6 @@
   }
 
   .col-right {
-    outline: 1px solid #025fff;
     @include col();
     @include size(6);
     //padding: rem(64) rem(100);
