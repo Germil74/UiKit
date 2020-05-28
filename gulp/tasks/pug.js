@@ -14,7 +14,7 @@ module.exports = function() {
                     message: error.message
                 };
             }))
-            .pipe($.gulp.dest('./public/'))
+            .pipe($.gulp.dest('./docs/'))
            .on('end', $.browserSync.reload);
     });
 };

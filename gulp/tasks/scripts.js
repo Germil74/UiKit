@@ -28,7 +28,7 @@ module.exports = function() {
                     ]
                 }
             }))
-            .pipe($.gulp.dest('./public/js/'))
+            .pipe($.gulp.dest('./docs/js/'))
             .on('end', $.browserSync.reload);
     });
 

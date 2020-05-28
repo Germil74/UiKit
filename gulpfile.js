@@ -1,7 +1,7 @@
 global.$ = {
     path: {
         task: require('./gulp/paths/tasks.js'),
-        dist: './public'    //  'D:/host/OSPanel/domains/temp/public'    './public'
+        dist: './docs'    //  'D:/host/OSPanel/domains/temp/public'    './public'
     },
     gulp: require('gulp'),
     del: require('del'),

@@ -22,7 +22,7 @@ module.exports = function() {
                     }
                 }
             }))
-            .pipe($.gulp.dest('./public/img/svg/'))
+            .pipe($.gulp.dest('./docs/img/svg/'))
             //.on('end', $.browserSync.reload);
     });
 };

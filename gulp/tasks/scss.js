@@ -16,7 +16,7 @@ module.exports = () => {
             .pipe($.gp.groupCssMediaQueries())
 
             .pipe($.gp.sourcemaps.write())
-            .pipe($.gulp.dest('./public/css/'))
+            .pipe($.gulp.dest('./docs/css/'))
             .on('end', $.browserSync.reload);
     });
     $.gulp.task('scss:build', () => {
@@ -31,7 +31,7 @@ module.exports = () => {
             .pipe($.gp.groupCssMediaQueries())
             .pipe($.gp.csscomb())
             .pipe($.gp.csso())
-            .pipe($.gulp.dest('./public/css/'));
+            .pipe($.gulp.dest('./docs/css/'));
 
     });
 };
